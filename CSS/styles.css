@@ -308,10 +308,49 @@ a {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 
 .team {
   background-color: #f5f4fa;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-social-item {
+  width: 44px;
+  height: 44px;
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.team-social-item:last-child {
+  margin-right: 0;
+}
+
+/* --------------- CLIENTS ---------------- */
+
+.clients {
+  padding-top: var(--section-typ-padding);
+  padding-bottom: var(--section-typ-padding);
+}
+
+.clients-list {
+  display: flex;
+}
+
+.clients-list-item {
+  height: 92px;
+  background-color: teal;
+  margin-right: 30px;
+  width: calc((100% - 150px) / 6);
+}
+
+.clients-list-item:last-child {
+  margin-right: 0;
 }
 
 /* --------------- FOOTER ---------------- */
@@ -366,11 +405,40 @@ a {
   color: var(--accent);
 }
 
+/* FOOTER SOCIAL */
+.social-title {
+  color: var(--white-text);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer .container {
+  display: flex;
+}
+
+.footer-contact-block {
+  margin-right: 70px;
+}
+
 /* --------------- PORTFOLIO PAGE ---------------- */
 .portfolio-filter {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-list-item {
+  background-color: teal;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
 }
 
 .port-filter-btn {
