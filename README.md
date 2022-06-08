@@ -1,3 +1,3 @@
 # goit-markup-hw-02
 
-CSS - blocks
+Vector Icons and Backgrounds layout
