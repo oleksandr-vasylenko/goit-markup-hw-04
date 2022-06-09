@@ -215,6 +215,7 @@ a {
 }
 
 /* --------------- VALUES/SERVICES --------------- */
+/* VALUES */
 .values-list {
   display: flex;
   margin-bottom: var(--section-typ-padding);
@@ -228,12 +229,19 @@ a {
   margin-right: 30px;
 }
 
-.val-descr {
-  color: var(--main-text);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  /* width: 270px; */
+.values-block {
+  display: flex;
+  justify-content: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+
+.values-list-icon {
+  width: 70px;
+  height: 70px;
 }
 
 .val-headline {
@@ -247,6 +255,15 @@ a {
   /* width: 270px; */
 }
 
+.val-descr {
+  color: var(--main-text);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /* width: 270px; */
+}
+
+/* SERVICES */
 .services-images {
   display: flex;
 }
