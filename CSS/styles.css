@@ -363,11 +363,13 @@ a {
 
 .clients-list {
   display: flex;
+  /* outline: 1px solid red; */
 }
 
 .clients-list-item {
   margin-right: 30px;
   width: calc((100% - 150px) / 6);
+  /* outline: 1px solid red; */
 }
 
 .clients-list-item:last-child {
@@ -375,16 +377,19 @@ a {
 }
 
 .client-item-link {
-  padding: 16px 32px;
   display: block;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  outline: 1px solid red;
 }
 
 .clients-logo {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+  outline: 1px solid red;
 }
 
 .clients-list-item .client-item-link:hover .clients-logo,
