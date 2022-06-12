@@ -367,7 +367,7 @@ a {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  color: var(--main-text);
+  color: #afb1b8;
 }
 
 .team-social-icon {
@@ -379,11 +379,6 @@ a {
   background-color: var(--accent);
   color: var(--white-text);
 }
-
-/* .team-social-link:hover .team-social-icon,
-.team-social-link:focus .team-social-icon {
-  fill: var(--white-text);
-} */
 
 /* --------------- CLIENTS ---------------- */
 
@@ -455,6 +450,11 @@ a {
   display: inline-block;
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
 /* FOOTER CONTACTS */
 .footer-mail,
 .footer-tel {
@@ -497,6 +497,42 @@ a {
 
 .footer-contact-block {
   margin-right: 70px;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.footer-social-item:last-child {
+  margin-right: 0;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: var(--white-text);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-icon {
+  fill: currentColor;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent);
+  color: var(--white-text);
 }
 
 /* --------------- PORTFOLIO PAGE ---------------- */
