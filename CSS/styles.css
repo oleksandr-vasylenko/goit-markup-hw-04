@@ -141,31 +141,41 @@ a {
   display: flex;
 }
 
-/* header-contacts */
-.header-mail,
-.header-tel {
+/* header-contact */
+.header-contact-link {
   color: var(--main-text);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
-.header-mail:hover,
-.header-tel:hover,
-.header-mail:focus,
-.header-tel:focus {
+.header-contact-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: var(--accent);
 }
 
-.header-contacts {
+.header-contact {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
-.header-contacts .header-contacts-item + .header-contacts-item {
+.header-contact .header-contact-item + .header-contact-item {
   margin-left: 50px;
+}
+
+.header-contact-link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* --------------- MAIN --------------- */
@@ -243,11 +253,6 @@ a {
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 30px;
-}
-
-.values-list-icon {
-  width: 70px;
-  height: 70px;
 }
 
 .val-headline {
@@ -340,19 +345,45 @@ a {
 
 .team-social-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-right: 32px;
+  margin-left: 32px;
 }
 
 .team-social-item {
   width: 44px;
   height: 44px;
-  background-color: teal;
   margin-right: 10px;
 }
 
 .team-social-item:last-child {
   margin-right: 0;
 }
+
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: var(--main-text);
+}
+
+.team-social-icon {
+  fill: currentColor;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent);
+  color: var(--white-text);
+}
+
+/* .team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
+  fill: var(--white-text);
+} */
 
 /* --------------- CLIENTS ---------------- */
 
@@ -363,14 +394,12 @@ a {
 
 .clients-list {
   display: flex;
-  /* outline: 1px solid red; */
 }
 
 .clients-list-item {
   height: 92px;
   margin-right: 30px;
   width: calc((100% - 150px) / 6);
-  /* outline: 1px solid red; */
 }
 
 .clients-list-item:last-child {
@@ -385,14 +414,10 @@ a {
   border-radius: 4px;
   width: 100%;
   height: 100%;
-  /* outline: 1px solid red; */
 }
 
 .clients-logo {
-  width: 106px;
-  height: 60px;
   fill: #afb1b8;
-  /* outline: 1px solid red; */
 }
 
 .client-item-link:hover .clients-logo,
