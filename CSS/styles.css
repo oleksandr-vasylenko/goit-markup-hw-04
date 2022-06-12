@@ -344,13 +344,9 @@ a {
 .team-social-list {
   display: flex;
   justify-content: center;
-  margin-right: 32px;
-  margin-left: 32px;
 }
 
 .team-social-item {
-  width: 44px;
-  height: 44px;
   margin-right: 10px;
 }
 
@@ -362,8 +358,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   color: #afb1b8;
 }
@@ -379,12 +375,6 @@ a {
 }
 
 /* --------------- CLIENTS ---------------- */
-
-.clients {
-  padding-top: var(--section-typ-padding);
-  padding-bottom: var(--section-typ-padding);
-}
-
 .clients-list {
   display: flex;
 }
@@ -503,8 +493,6 @@ a {
 }
 
 .footer-social-item {
-  width: 44px;
-  height: 44px;
   margin-right: 10px;
 }
 
@@ -516,8 +504,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   color: var(--white-text);
   background-color: rgba(255, 255, 255, 0.1);
@@ -538,17 +526,6 @@ a {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
-}
-
-.social-list {
-  display: flex;
-}
-
-.social-list-item {
-  background-color: teal;
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
 }
 
 .port-filter-btn {
